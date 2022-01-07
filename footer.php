@@ -4,52 +4,61 @@
 
 <!-- footer -->
 <section class="w3l-footer-29-main">
-        <div class="footer-29 py-5">
+        <div class="footer-29 py-3">
             <div class="container py-lg-4">
                 <div class="row footer-top-29">
-                    <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-1 pr-lg-5">
+                    <div class="col-lg-6 col-md-9 col-sm-12 footer-list-29 footer-1 pr-lg-5">
                         <div class="footer-logo mb-3">
-                            <a class="navbar-brand" href="index.html">DigitalEdu</a>
+                            <img src="assets/images/bdspmlogo.png" style="height: 100px;" alt="logo" title="BDSPM Logo"/>
                         </div>
-                        <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at
-                            tempufddfel. Lorem ipsum dolor sit amet Semper at elit.</p>
-                        <div class="main-social-footer-29 mt-4">
-                            <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
-                            <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
-                            <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
-                            <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
-                        </div>
+                        <p><strong style="color:#888;"><i class="fa fa-map-signs"></i></strong>
+                         Bhagwandeen Singh Patel Mahavidhyalya Campus, <br> Ragauli, Karwi - Chitrakoot, 210205</p>
+                        <p class="my-2">
+                            <strong style="color:#888;"><i class="fa fa-phone"></i></strong> 
+                            <a href="tel:+91 9919994404">+91 9919994404</a><br>
+                            <!-- <a href="tel:+91 9919994406">+91 9919994406</a> -->
+                        </p>
+                        <p class="my-2">
+                            <strong style="color:#888;"><i class="fa fa-phone"></i></strong> 
+                            <a href="tel:+91 6306353375">+91 6306353375</a>
+                        </p>
+                        <p><strong style="color:#888;"><i class="fa fa-envelope"></i></strong> <a href="mailto:info@bdspm.org">info@bdspm.org</a></p>
                     </div>
-                    <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-2 mt-sm-0 mt-5">
-
-                        <ul>
-                            <h6 class="footer-title-29">Usefull Links</h6>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="services.html">Courses</a></li>
-                            <li><a href="#pricing"> Pricing plans</a></li>
-                            <li><a href="#careers"> Careers</a></li>
-                            <li><a href="blog.html"> Blog posts</a></li>
-                            <li><a href="contact.html">Contact us</a></li>
+                    <div class="col-lg-3 col-md-6 col-sm-6 footer-list-29 footer-4 mt-lg-3 mt-5 footer-divider">
+                        <ul class="footer-alignment">
+                            <h6 class="footer-title-29" class="footer-alignment">Useful Links</h6>
+                            <li><a href="infrastructure.php">Campus Infrastructure</a></li>
+                            <li><a href="campus.php">Campus Activities</a></li>
+                            <li><a href="gallery.php">Photo Gallery</a></li>
+                            <li><a href="faculties.php">Faculties</a></li>
+                            <li><a href="courses.php">Courses</a></li>
+                            <!-- <li><a href="faculties.php">Faculties</a></li> -->
                         </ul>
                     </div>
-                    <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-3 mt-lg-0 mt-5">
-                        <h6 class="footer-title-29">More Info</h6>
-                        <ul>
-                            <li><a href="#profile">Profile</a></li>
-                            <li><a href="#vision">Vision & Values</a></li>
-                            <li><a href="#history">History</a></li>
+                    <div class="col-lg-3 col-md-6 col-sm-6 footer-list-29 footer-4 mt-lg-3 mt-5">
+                        <h6 class="footer-title-29" class="footer-alignment">Student Corner</h6>
+                        <ul class="footer-alignment">
+                            <li><a href="admission.php">Admission Process</a></li>
+                            <li><a href="scholarship.php">Scholarship Process</a></li>
+                            <li><a href="fees.php">Fee Structure</a></li>
+                            <li><a href="examination.php">Examination</a></li>
+                            <li><a href="library.php">Library</a></li>
+                            <!-- <li><a href="#history">History</a></li>
                             <li><a href="#leader">Leadership</a></li>
-                            <li><a href="#help">Help</a></li>
-                            <li><a href="#support"> Support</a></li>
+                            <li><a href="#help">Help</a></li> -->
                         </ul>
-
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-4 mt-lg-0 mt-5">
+                    <!-- <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-4 mt-lg-0 mt-5">
                         <h6 class="footer-title-29">Contact Info </h6>
-                        <p><strong>Address :</strong> DigitalEdu, 343 Honey Avenue street, NY - 62617.</p>
-                        <p class="my-2"><strong>Phone :</strong> <a href="tel:+12 23456799">+12 23456799</a></p>
-                        <p><strong>Email :</strong> <a href="mailto:info@example.com">info@example.com</a></p>
-                    </div>
+                        <p><strong>Address :</strong> Bhagwandeen Singh Patel Mahavidhyalya Campus, Ragauli, Karwi - Chitrakoot, 210205</p>
+                        <p class="my-2">
+                            <strong>Phone :</strong> 
+                            <a href="tel:+91 8707661041">+91 8707661041</a><br>
+                            <a href="tel:+91 6306353375">+91 6306353375</a><br>
+                            <a href="tel:+91 9919994406">+91 9919994406</a>
+                        </p>
+                        <p><strong>Email :</strong> <a href="mailto:info@bdspm.org">info@bdspm.org</a></p>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -60,15 +69,15 @@
     <section class="w3l-copyright">
         <div class="container">
             <div class="row bottom-copies">
-                <p class="col-lg-8 copy-footer-29">© 2020 DigitalEdu. All rights reserved. Design by <a
-                        href="https://w3layouts.com/" target="_blank">
-                        W3Layouts</a></p>
+                <p class="col-lg-8 copy-footer-29">© 2022 BDSPM All rights reserved | Developed by <a
+                        href="https://webflair.in/" target="_blank">
+                        Webflair</a></p>
 
                 <div class="col-lg-4 footer-list-29">
                     <ul class="d-flex text-lg-right justify-content-center mt-lg-0 mt-3">
-                        <li><a href="#careers"> Careers</a></li>
-                        <li class="mx-lg-5 mx-md-4 mx-3"><a href="#privacymy-lg-0 my-4">Privacy Policy</a></li>
-                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="about.php">About Us</a></li>
+                        <li class="mx-lg-5 mx-md-4 mx-3"><a href="privacy.php">Privacy Policy</a></li>
+                        <li><a href="contact.php">Contact us</a></li>
                     </ul>
                 </div>
 

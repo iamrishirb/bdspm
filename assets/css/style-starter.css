@@ -14521,6 +14521,10 @@ header {
   display: grid;
   align-items: center;
   z-index: 99 !important;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 80%);
+  backdrop-filter: blur(18px) saturate(180%);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+  background: rgba(0, 0, 0, 0.85);  
 }
 
 header.active {
@@ -14630,10 +14634,11 @@ a.dropdown-item:hover {
 
 header.nav-fixed {
   padding: 0px;
-  background-color: var(--bg-color);
   height: 80px;
-  border-bottom: none;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 80%);
+  backdrop-filter: blur(18px) saturate(180%);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+  background: rgba(0, 0, 0, 0.90);  
 }
 
 .navbar-dark .navbar-nav .show>,
@@ -14669,7 +14674,7 @@ nav ul li a:hover {
 }
 
 .nav-fixed .navbar-expand-lg .navbar-nav .nav-link {
-  color: var(--heading-color);
+  color: #eeeeee;
   opacity: 0.9;
 }
 
@@ -14853,7 +14858,7 @@ nav ul li a:hover {
 }
 
 .navbar .navbar-brand img {
-  max-width: 140px;
+  max-width: 280px;
 }
 
 .navbar-toggler {
@@ -14902,7 +14907,7 @@ nav ul li a:hover {
 
 header.nav-fixed {
   height: auto;
-  padding: 15px 0;
+  padding: 2px 0;
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -15095,26 +15100,26 @@ header.nav-fixed {
 .w3l-main-slider .banner-view {
   background: url(../images/banner1.jpg) no-repeat center;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 80vh;
   position: relative;
   z-index: 0;
   display: grid;
   align-items: center;
-  padding: 3em 0;
+  padding-top: 3em;
 }
 
 .w3l-main-slider .banner-top1 {
-  background: url(../images/banner2.jpg) no-repeat center;
+  background: url(../images/banner4.jpg) no-repeat center;
   background-size: cover;
 }
 
 .w3l-main-slider .banner-top2 {
-  background: url(../images/banner3.jpg) no-repeat center;
+  background: url(../images/banner2.jpg) no-repeat center;
   background-size: cover;
 }
 
 .w3l-main-slider .banner-top3 {
-  background: url(../images/banner4.jpg) no-repeat center;
+  background: url(../images/banner3.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -15123,7 +15128,7 @@ header.nav-fixed {
   background: rgb(8 8 8 / 64%);
   position: absolute;
   top: 0;
-  min-height: 100vh;
+  min-height: 80vh;
   left: 0;
   right: 0;
   z-index: -1;
