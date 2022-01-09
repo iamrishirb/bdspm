@@ -38,8 +38,10 @@
                             </div>
                             <div class="cont-right">
                                 <h6>Phone number</h6>
-                                <p><a href="tel:+91 9919994404">+91 9919 99 44 04</a></p>
-                                <p><a href="tel:+91 6306353375">+91 6306 35 33 75</a></p>
+                                <!-- <p style="font-weight: bold;">Mahendra Singh</p> -->
+                                <p style="font-weight: bold;">Principal</p>
+                                <p><a href="tel:+91 9919994405">+91 9919 99 44 05</a></p>
+                                <!-- <p><a href="tel:+91 6306353375">+91 6306 35 33 75</a></p> -->
                             </div>
                         </div>
                         <div class="cont-top margin-up">

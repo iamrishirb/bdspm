@@ -2,9 +2,6 @@
 <header id="site-header" class="fixed-top">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark stroke">
-            <!-- <h1><a class="navbar-brand" href="index.html">
-                    Digital<span class="sub-log">E</span>du
-                </a></h1> -->
             <a class="navbar-brand" href="index.php">
                 <img src="assets/images/bdspmlogo.png" alt="logo" title="BDSPM Logo"/>
             </a>
@@ -31,17 +28,35 @@
                         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.php">About</a>
+                        <a class="nav-link" href="courses.php">Courses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="courses.php">Courses</a>
+                        <a class="nav-link" href="library.php">Library</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About Us <i class="fa fa-caret-down"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="about.php">Our Vision & Mission</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="faculties.php">Our Faculties</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="infrastructure.php">Campus Infrastructure</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="facilities.php">Institute Facilities</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="gallery.php">Image Gallery</a>
+                            <!-- <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a> -->
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.php">Contact Us</a>
                     </li>
-                    <li class="nav-item  btn btn-primary" style="padding: 2px 24px; margin-left: 20px;">
+                    <!-- <li class="nav-item  btn btn-primary" style="padding: 2px 24px; margin-left: 20px;">
                         <a class="nav-link" href="register.php">Registration</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <!-- toggle switch for light and dark theme -->
@@ -60,6 +75,7 @@
                 </nav>
             </div> -->
             <!-- //toggle switch for light and dark theme -->
+            
         </nav>
     </div>
 </header>

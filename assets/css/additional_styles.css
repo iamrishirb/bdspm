@@ -32,6 +32,10 @@
    border-radius: 0px 0px 25px 25px;
    box-shadow: 10px 10px 30px rgba(204, 204, 204, 0.4); 
 }
+.notice-section .notices marquee {
+    max-width: fit-content;
+    max-height: 240px;
+}
 .notice {
     display: block;
     font-size: 1.2rem;
@@ -81,30 +85,26 @@
     background: #ffbb00;
 }
 
-/* ---------- scrollbar styles ---------- */
-/* .section-content::-webkit-scrollbar{
-    width: 4px;
-    background: #eee;
-    border-radius: 10px;
+.facilities > .counter {
+    background-color: transparent; 
+    box-shadow: none;
+    border: none;
+    padding: 40px 20px;
+    border-radius: var(--border-radius-full);
+    text-align: center;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
 }
-.section-content::-webkit-scrollbar-thumb{
-    background: #aaa;
-    border-radius: 10px;
-}
-.section-content::-webkit-scrollbar-thumb:hover{
-    background: #aaa;
-    border-radius: 10px;
-}
-.section-content::-webkit-scrollbar-corner{
-    background: #fff;
-    visibility: hidden;
-} */
 
 
 /* Media Queries */
 @media screen and (max-width : 998px) {
     .notice-section {
         margin-top: -5rem;
+        padding: 0px;
     }
     .notice-section .notices {
         max-width: 100%;
@@ -112,10 +112,19 @@
         border-radius: 0px 0px 20px 20px;
         margin-bottom: 40px;
     }
+    .notice-section .notices marquee {
+        max-width: fit-content;
+        max-height: 200px;
+    }
+    section.w3_stats {
+        margin-top: -6rem;
+        padding: 0px 40px;
+    }
 }
 @media screen and (max-width : 472px) {
     .notice-section {
-        margin-top: -3rem;
+        margin-top: -5rem;
+        padding: 0px;
     }
     .notice-section .section-header {
         padding-left: 30px;
@@ -132,11 +141,33 @@
     }
     .notice-section .notices marquee {
         max-width: fit-content;
+        max-height: 200px;
+    }
+    .notice-section .info-buttons {
+        padding: 20px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .button-info:last-child {
+        margin-bottom: 0px;
+    }
+    section.w3_stats {
+        margin-top: -10rem;
+        padding: 0px 40px;
+    }
+    .w3l-form-25-section h3 {
+        font-size: 2.2rem;
     }
 }
 
-@media screen and (max-width : 340px) {
+@media screen and (max-width : 360px) {
     .navbar .navbar-brand img {
         width: 200px;
+    }
+    .w3l-main-slider .banner-view {
+        min-height: 700px;
     }
 }

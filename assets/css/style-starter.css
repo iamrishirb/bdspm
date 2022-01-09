@@ -39,6 +39,8 @@ Author URL: http://w3layouts.com
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --nunito: 'Nunito', sans-serif;
+  --poppins: 'Poppins', sans-serif;
 }
 
 *,
@@ -3501,13 +3503,13 @@ input[type="button"].btn-block {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #212529;
+  color: #dedede;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: #000;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem;
+  border-radius: 1.5rem;
 }
 
 .dropdown-menu-left {
@@ -3664,9 +3666,9 @@ input[type="button"].btn-block {
 
 .dropdown-divider {
   height: 0;
-  margin: 0.5rem 0;
+  margin: 0.4rem 0;
   overflow: hidden;
-  border-top: 1px solid #e9ecef;
+  border-top: 1px solid #323232;
 }
 
 .dropdown-item {
@@ -14591,8 +14593,9 @@ header.active {
 .navbar-expand-lg .navbar-nav .nav-link {
   text-transform: capitalize;
   transition: all 0.5s ease;
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--poppins);
   letter-spacing: .5px;
   color: var(--nav-color);
   display: block;
@@ -14600,10 +14603,11 @@ header.active {
 }
 
 a.dropdown-item {
-  font-weight: 600;
-  font-size: 17px;
+  font-weight: 400;
+  font-size: 14px;
   text-align: left;
-  color: var(--font-color);
+  color: #dedede;
+  font-family: var(--poppins);
 }
 
 a.dropdown-item.active,
@@ -14620,7 +14624,7 @@ a.dropdown-item:hover {
   content: '';
   width: 14px;
   height: 14px;
-  background: #fff;
+  background: #000;
   border: 1px solid rgba(0, 0, 0, 0.15);
   display: block;
   border-right: none;
@@ -15005,6 +15009,7 @@ header.nav-fixed {
   line-height: 66px;
   font-weight: 600;
   color: #fff;
+  font-family: var(--poppins);
 }
 
 .w3l-main-slider .banner-info-bg h5 span {
@@ -15013,9 +15018,10 @@ header.nav-fixed {
 
 .w3l-main-slider .banner-info-bg p {
   color: #fff;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   max-width: 580px;
+  font-family: var(--poppins);
 }
 
 .w3l-main-slider .banner-info-bg ul {
@@ -15100,7 +15106,7 @@ header.nav-fixed {
 .w3l-main-slider .banner-view {
   background: url(../images/banner1.jpg) no-repeat center;
   background-size: cover;
-  min-height: 80vh;
+  min-height: 100vh;
   position: relative;
   z-index: 0;
   display: grid;
@@ -15125,10 +15131,10 @@ header.nav-fixed {
 
 .w3l-main-slider .banner-view:before {
   content: "";
-  background: rgb(8 8 8 / 64%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 60%, #f8f9fa 100%) rgb(8 8 8 / 64%);
   position: absolute;
   top: 0;
-  min-height: 80vh;
+  min-height: 100vh;
   left: 0;
   right: 0;
   z-index: -1;
@@ -15179,7 +15185,7 @@ header.nav-fixed {
 
 @media (max-width:600px) {
   .w3l-main-slider .banner-view {
-    min-height: 480px;
+    min-height: 600px;
   }
 
   .w3l-main-slider .banner-info-bg {
@@ -15199,7 +15205,7 @@ header.nav-fixed {
 @media (max-width: 415px) {
   .w3l-main-slider .banner-info-bg h5 {
     font-size: 30px;
-    line-height: 35px;
+    line-height: 48px;
   }
 
 }
@@ -15790,7 +15796,7 @@ button.owl-next {
 
 /*-- stats --*/
 section.w3_stats {
-  margin-top: -70px;
+  margin-top: -5rem;
   z-index: 10;
   position: relative;
 }
@@ -15800,7 +15806,7 @@ section.w3_stats {
 }
 
 .counter {
-  background-color: var(--bg-color);
+  background-color: #f5f5f5;
   box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
   border: 1px solid var(--border-color);
   padding: 40px 20px;
@@ -15824,7 +15830,7 @@ section.w3_stats {
 }
 
 .counter span.fa {
-  background: var(--secondary-color);
+  background: var(--primary-color);
   font-size: 26px;
   border-radius: 50%;
   width: 65px;
@@ -15885,7 +15891,7 @@ p.count-text {
 
 .w3l-form-25-section:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -15899,10 +15905,11 @@ p.count-text {
 }
 
 .w3l-form-25-section h3 {
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 2.6rem;
+  line-height: 3rem;
   font-weight: 600;
-  color: #fff;
+  color: #ddd;
+  letter-spacing: 0.1rem;
 }
 
 /*--//--*/
@@ -16200,8 +16207,9 @@ p.count-text {
 
 .w3l-copyright p.copy-footer-29 {
   align-self: center;
-  color: #ddd;
-  font-size: 17px;
+  color: #aaa;
+  font-weight: 200;
+  font-size: 0.9rem;
 }
 
 @media (max-width: 992px) {
@@ -17230,6 +17238,8 @@ ul.page-pagination li a.next:hover {
 }
 
 .w3l-team-main .team-img img {
+  height: 200px;
+  width: 200px;
   transition: all .2s ease-in-out;
   overflow: hidden;
   width: 100%;
@@ -18582,3 +18592,4 @@ a.blog-desc1:hover {
 /* /contact1 */
 
 /*# sourceMappingURL=style-freedom.css.map */
+

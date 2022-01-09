@@ -26,12 +26,13 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 footer-list-29 footer-4 mt-lg-3 mt-5 footer-divider">
                         <ul class="footer-alignment">
-                            <h6 class="footer-title-29" class="footer-alignment">Useful Links</h6>
+                            <h6 class="footer-title-29" class="footer-alignment">Institute Links</h6>
                             <li><a href="infrastructure.php">Campus Infrastructure</a></li>
-                            <li><a href="campus.php">Campus Activities</a></li>
+                            <li><a href="facilities.php">Institute Facilities</a></li>
                             <li><a href="gallery.php">Photo Gallery</a></li>
                             <li><a href="faculties.php">Faculties</a></li>
                             <li><a href="courses.php">Courses</a></li>
+                            <li><a href="library.php">Library</a></li>
                             <!-- <li><a href="faculties.php">Faculties</a></li> -->
                         </ul>
                     </div>
@@ -40,25 +41,15 @@
                         <ul class="footer-alignment">
                             <li><a href="admission.php">Admission Process</a></li>
                             <li><a href="scholarship.php">Scholarship Process</a></li>
+                            <li><a href="activities.php">Student Activities</a></li>
+                            <li><a href="instructions.php">Student Instructions</a></li>
                             <li><a href="fees.php">Fee Structure</a></li>
                             <li><a href="examination.php">Examination</a></li>
-                            <li><a href="library.php">Library</a></li>
                             <!-- <li><a href="#history">History</a></li>
                             <li><a href="#leader">Leadership</a></li>
                             <li><a href="#help">Help</a></li> -->
                         </ul>
                     </div>
-                    <!-- <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-4 mt-lg-0 mt-5">
-                        <h6 class="footer-title-29">Contact Info </h6>
-                        <p><strong>Address :</strong> Bhagwandeen Singh Patel Mahavidhyalya Campus, Ragauli, Karwi - Chitrakoot, 210205</p>
-                        <p class="my-2">
-                            <strong>Phone :</strong> 
-                            <a href="tel:+91 8707661041">+91 8707661041</a><br>
-                            <a href="tel:+91 6306353375">+91 6306353375</a><br>
-                            <a href="tel:+91 9919994406">+91 9919994406</a>
-                        </p>
-                        <p><strong>Email :</strong> <a href="mailto:info@bdspm.org">info@bdspm.org</a></p>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -69,9 +60,10 @@
     <section class="w3l-copyright">
         <div class="container">
             <div class="row bottom-copies">
-                <p class="col-lg-8 copy-footer-29">© 2022 BDSPM All rights reserved | Developed by <a
-                        href="https://webflair.in/" target="_blank">
-                        Webflair</a></p>
+                <p class="col-lg-8 copy-footer-29">Copyright © 2022 BDSPM All rights reserved | Developed by <a
+                    href="https://webflair.in/" target="_blank">
+                    Webflair</a>
+                </p>
 
                 <div class="col-lg-4 footer-list-29">
                     <ul class="d-flex text-lg-right justify-content-center mt-lg-0 mt-3">

@@ -14,7 +14,7 @@
                             <div class="container">
                                 <div class="banner-info-bg">
                                     <h5>Best Degree College in Karvi</h5>
-                                    <p class="mt-4 pr-lg-4">Choose from over 10 plus Courses in multiple domains and give wings to your career with the support of best faculty </p>
+                                    <p class="mt-4 pr-lg-4">Choose from over 5 plus Courses in multiple domains and give wings to your career with the support of best faculty </p>
                                     <a class="btn btn-style btn-primary mt-xl-5 mt-4 mr-2" href="register.php"> Register Now <span class="fa fa-chevron-right ml-2"
                                             aria-hidden="true"></span></a>
                                     <a class="btn btn-style btn-white mt-xl-5 mt-4" href="courses.php"> View
@@ -69,16 +69,11 @@
                         <div class="banner-info">
                             <div class="container">
                                 <div class="banner-info-bg">
-                                    <h5>Learning to Love, Loving to Learn</h5>
-                                    <p class="mt-4 pr-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Velit
-                                        quisquam, doloremque placeat aut numquam ipsam. </p>
-                                    <a class="btn btn-style btn-primary mt-xl-5 mt-4 mr-2" href="register.php"> Get
-                                        Started <span class="fa fa-chevron-right ml-2"
-                                            aria-hidden="true"></span></a>
-                                    <a class="btn btn-style btn-white mt-xl-5 mt-4" href="courses.php"> View
-                                        Courses <span class="fa fa-chevron-right ml-2"
-                                            aria-hidden="true"></span></a>
+                                    <h5>Recognised by NCTE</h5>
+                                    <p class="mt-4 pr-lg-4">Our Institute is recognised by National Council for Teacher Education and 
+                                        our courses are under approval from the Council which gives an added advantage.</p>
+                                    <a class="btn btn-style btn-primary mt-xl-5 mt-4 mr-2" href="register.php"> 
+                                        Visit NCTE Website<span class="fa fa-chevron-right ml-2" aria-hidden="true"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -98,7 +93,7 @@
             <!-- Notice Board -->
             <div class="col-lg-8 col-sm-12  noticeboard">
                 <div class="section-header">
-                    <h2 class="title-thin">NOTICES & ANNOUNCEMENTS</h2>
+                    <h2 class="title-thin">Notices & Announcements</h2>
                 </div>
                 <div class="section-content notices">
                     <marquee behavior="top" direction="up">
@@ -113,7 +108,7 @@
             <!-- Important Links -->
             <div class="col-lg-4 col-sm-12 dates">
                 <div class="section-header header-dark">
-                    <h2 class="title-thin">IMPORTANT LINKS</h2>
+                    <h2 class="title-thin">Student Corner</h2>
                 </div>
                 <div class="section-content notices info-buttons">
                     <a href="#" class="button-info btn-orange">Admission Process</a>
@@ -133,8 +128,8 @@
         <div class="row content-1-grids">
             <div class="col-lg-9 pl-lg-5 mt-lg-0 mt-4 py-4 content-1-left forms-25-info">
                 <div class="header-title">
-                    <span class="sub-title">About Us</span>
-                    <h3 class="hny-title">Learn at Your Own Place</h3>
+                    <!-- <span class="sub-title">About Us</span> -->
+                    <h3 class="hny-title">About the Institute</h3>
                     
                 </div>
             </div>
@@ -165,15 +160,17 @@
 <div class="w3l-homeblog py-5" id="homeblog">
     <div class="container py-lg-5 py-md-4">
         <div class="header-title mb-3">
-            <span class="sub-title">Top Courses</span>
-            <h3 class="hny-title text-left">Browse Our Top Courses.</h3>
+            <span class="sub-title">Our Courses</span>
+            <h3 class="hny-title text-left">Programs we run</h3>
+            <br>
+            <p>There are total 4 main Programs in our college campus in which we are running UG & PG Courses</p>
         </div>
         <div class="row top-pics ">
             <div class="col-lg-3 col-md-6 mt-5">
                 <div class="top-pic1">
                     <div class="card-body blog-details">
-                        <p class="course-sub">UG & PG Courses</p>
-                        <a href="services.html" class="blog-desc">Science
+                        <p class="course-sub">Intake: 420 Seats</p>
+                        <a href="#" class="blog-desc">B.A.
                         </a>
                     </div>
                 </div>
@@ -181,17 +178,8 @@
             <div class="col-lg-3 col-md-6 mt-5">
                 <div class="top-pic2">
                     <div class="card-body blog-details">
-                        <p class="course-sub">UG & PG Courses</p>
-                        <a href="services.html" class="blog-desc">Arts
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mt-5">
-                <div class="top-pic3">
-                    <div class="card-body blog-details">
-                        <p class="course-sub">UG & PG Courses</p>
-                        <a href="services.html" class="blog-desc">Humanities
+                        <p class="course-sub">Intake: 120 Seats</p>
+                        <a href="#" class="blog-desc">B.Sc.
                         </a>
                     </div>
                 </div>
@@ -199,56 +187,29 @@
             <div class="col-lg-3 col-md-6 mt-5">
                 <div class="top-pic4">
                     <div class="card-body blog-details">
-                        <p class="course-sub">UG & PG Courses</p>
-                        <a href="services.html" class="blog-desc">Commerce
+                        <p class="course-sub">Intake: 60 Seats</p>
+                        <a href="#" class="blog-desc">B.Com.
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mt-5">
+                <div class="top-pic3">
+                    <div class="card-body blog-details">
+                        <p class="course-sub">Intake: 50 Seats</p>
+                        <a href="#" class="blog-desc">D.L.Ed.
                         </a>
                     </div>
                 </div>
             </div>
             <div class="readhny-btm text-center mx-auto mt-md-4">
-                <a class="btn btn-primary btn-style mt-md-5 mt-4" href="about.html">Read More <span
+                <a class="btn btn-primary btn-style mt-md-5 mt-4" href="about.html">Program Details <span
                         class="fa fa-chevron-right ml-2" aria-hidden="true"></span></a>
             </div>
         </div>
     </div>
 </div>
 <!--//courses-->
-<section class="w3l-bottom-grids-6 py-5" id="features">
-    <div class="container py-lg-5 py-md-4">
-        <div class="grids-area-hny main-cont-wthree-fea row">
-            <!-- /feature-left-->
-            <div class="col-md-6 grids-feature mt-4">
-                <div class="area-box">
-                    <div class="row">
-                        <div class="col-sm-2 icon">
-                            <span class="fa fa-video-camera"></span>
-                        </div>
-                        <div class="col-sm-10 area-box-info">
-                            <h4><a href="#feature" class="title-head">Become a instructor on DigitalEdu</a></h4>
-                            <p class="mt-3">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet.</p>
-                            <a class="btn btn-primary btn-style mt-4" href="about.html">Start today <span class="fa fa-chevron-right ml-2" aria-hidden="true"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 grids-feature mt-4">
-                <div class="area-box">
-                    <div class="row">
-                        <div class="col-sm-2 icon">
-                            <span class="fa fa-tasks"></span>
-                        </div>
-                        <div class="col-sm-10 area-box-info">
-                            <h4><a href="#feature" class="title-head">DigitalEdu for business & Community</a></h4>
-                            <p class="mt-3">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet..</p>
-                            <a class="btn btn-primary btn-style mt-4" href="about.html">Start today <span class="fa fa-chevron-right ml-2" aria-hidden="true"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- //bottom-grids-->
 
 <!-- middle -->
 <div class="middle py-5">
@@ -256,9 +217,7 @@
         <div class="welcome-left text-center py-lg-4">
             <h3 class="hny-title">Lush Green Infrastructure for Academic Environment</h3>
             <div class="middle-buttons pb-5">
-                <a href="about.html" class="btn btn-style btn-white mt-sm-5 mt-4 mr-2">Campus Walk <span
-                        class="fa fa-chevron-right ml-2" aria-hidden="true"></span></a>
-                <a href="contact.html" class="btn btn-style btn-primary mt-sm-5 mt-4">Student Activities <span
+                <a href="infrastructure.php" class="btn btn-style btn-white mt-sm-5 mt-4 mr-2">Campus Walk <span
                         class="fa fa-chevron-right ml-2" aria-hidden="true"></span></a>
             </div>
         </div>
@@ -332,260 +291,29 @@
     </div>
 </section>
 <!-- //home page video popup section -->
-<!--/blog-post-->
-<section class="w3l-blogpost-content py-5">
+<!-- /content-1-->
+<div class="content-1 py-5">
     <div class="container py-md-5">
-        <div class="header-title mb-md-5 mt-4">
-            <span class="sub-title">Latest Posts</span>
-            <h3 class="hny-title text-left">Our Blog Posts</h3>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 item">
-                <div class="card">
-                    <div class="card-header p-0 position-relative">
-                        <a href="blog-single.html">
-                            <img class="card-img-bottom d-block radius-image-full" src="assets/images/ab8.jpg" alt="Card image cap">
-                        </a>
-                    </div>
-                    <div class="card-body blog-details">
-                        <a href="blog-single.html" class="blog-desc">Learning to Write as a Professional Author
-                        </a>
-                        <div class="author align-items-center">
-                            <img src="assets/images/admin.jpg" alt="" class="img-fluid rounded-circle">
-                            <ul class="blog-meta">
-                                <li>
-                                    <a href="#">Isabella ava</a> 
-                                </li>
-                                <li class="meta-item blog-lesson">
-                                    <span class="meta-value"> Sep 13, 2020 </span>. <span class="meta-value ml-2"><span class="fa fa-clock-o"></span> 1 min</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+        <div class="row content-1-grids">
+            <div class="col-lg-9 pl-lg-5 mt-lg-0 py-4 content-1-left forms-25-info">
+                <div class="header-title">
+                    <!-- <span class="sub-title">About Us</span> -->
+                    <h3 class="hny-title">Extra Curricular Activities</h3>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
-                <div class="card">
-                    <div class="card-header p-0 position-relative">
-                        <a href="blog-single.html">
-                            <img class="card-img-bottom d-block radius-image-full" src="assets/images/ab2.jpg" alt="Card image cap">
-                        </a>
-                    </div>
-                    <div class="card-body blog-details">
-                        <a href="blog-single.html" class="blog-desc">Learning to Write as a Professional Author</a>
-                        <div class="author align-items-center">
-                            <img src="assets/images/admin.jpg" alt="" class="img-fluid rounded-circle">
-                            <ul class="blog-meta">
-                                <li>
-                                    <a href="#">Charlotte mia</a> 
-                                </li>
-                                <li class="meta-item blog-lesson">
-                                    <span class="meta-value"> Sep 13, 2020 </span>. <span class="meta-value ml-2"><span class="fa fa-clock-o"></span> 1 min</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
-                <div class="card">
-                    <div class="card-header p-0 position-relative">
-                        <a href="blog-single.html">
-                            <img class="card-img-bottom d-block radius-image-full" src="assets/images/ab6.jpg" alt="Card image cap">
-                        </a>
-                    </div>
-                    <div class="card-body blog-details">
-                        <a href="blog-single.html" class="blog-desc">Learning to Write as a Professional Author
-                        </a>
-                        <div class="author align-items-center">
-                            <img src="assets/images/admin.jpg" alt="" class="img-fluid rounded-circle">
-                            <ul class="blog-meta">
-                                <li>
-                                    <a href="#">Elizabeth</a> 
-                                </li>
-                                <li class="meta-item blog-lesson">
-                                    <span class="meta-value"> Sep 13, 2020 </span>. <span class="meta-value ml-2"><span class="fa fa-clock-o"></span> 1 min</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-9 pl-lg-5 mt-lg-0 mt-4 py-4">
+                <p class="">
+                    Apart from core studies, various extra curricular activities and co-curricular activities 
+                    are also organised in the college campus from time to time. The institute in houses a great 
+                    lush green sports playground for sports like Cricket, kabaddi, Badminton, Volleyball and various 
+                    cultural and entertainment activities. These activities are organized in the institute once or twice every year.
+                </p>
+                <a href="activities.php" class="btn btn-style btn-primary mt-sm-5 mt-4">Check Student Activities <span
+                        class="fa fa-chevron-right ml-2" aria-hidden="true"></span></a>
             </div>
         </div>
     </div>
-</section>
-<!--//blog-posts-->
-<!--/w3l-newsletter-->
-<section class="w3l-newsletter">
-    <!-- /form-25-section -->
-    <div class="form-25-main py-5">
-        <div class="container py-lg-5">
-            <div class="forms-25-info">
-
-                <div class="header-title mb-md-5 mt-4">
-                    <span class="sub-title">Subscribe to our Newsletter</span>
-                    <h3 class="hny-title text-left">Join our Community of Students</h3>
-                </div>
-                <form action="#" method="post" class="signin-form mt-4 mb-2">
-                    <div class="forms-gds">
-                        <input type="text" name="" placeholder="Name" required />
-                        <input type="email" name="" placeholder="Email" required />
-                        <button class="btn btn-style btn-primary">Subscribe</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
-<!--//w3l-newsletter-->
-<!-- testimonials -->
-<section class="w3l-clients-1" id="testimonials">
-    <!-- /grids -->
-    <div class="cusrtomer-layout py-5">
-        <div class="container py-lg-5 py-md-4">
-            <div class="header-title mb-md-5 mb-4">
-                <span class="sub-title">Testimonials</span>
-                <h3 class="hny-title text-left">What People Say</h3>
-            </div>
-            <!-- /grids -->
-            <div class="testimonial-row">
-                <div id="owl-demo1" class="owl-two owl-carousel owl-theme mb-md-3 mb-sm-5 mb-4">
-                    <div class="item">
-                        <div class="testimonial-content">
-                            <div class="testimonial">
-                                <blockquote>
-                                    <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita beatae
-                                        laudantium Quas minima sunt natus tempore, maiores aliquid modi felis vitae
-                                        facere aperiam sequi optio lacinia id ipsum non velit, culpa.
-                                        voluptate rem ullam dolore nisi est quasi, doloribus tempora.</q>
-                                </blockquote>
-                            </div>
-                            <div class="testi-des">
-                                <div class="test-img">
-                                    <img src="assets/images/team1.jpg" class="img-fluid" alt="client-img">
-                                </div>
-                                <div class="peopl align-self">
-                                    <h4>Gloria Parker</h4>
-                                    <p class="indentity">Student </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimonial-content">
-                            <div class="testimonial">
-                                <blockquote>
-                                    <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita beatae
-                                        laudantium Quas minima sunt natus tempore, maiores aliquid modi felis vitae
-                                        facere aperiam sequi optio lacinia id ipsum non velit, culpa.
-                                        voluptate rem ullam dolore nisi est quasi, doloribus tempora.</q>
-                                </blockquote>
-                            </div>
-                            <div class="testi-des">
-                                <div class="test-img"><img src="assets/images/team2.jpg" class="img-fluid"
-                                    alt="client-img">
-                            </div>
-                                <div class="peopl align-self">
-                                    <h4>Tommy sakura</h4>
-                                    <p class="indentity">Student </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimonial-content">
-                            <div class="testimonial">
-                                
-                                <blockquote>
-                                    <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita beatae
-                                        laudantium Quas minima sunt natus tempore, maiores aliquid modi felis vitae
-                                        facere aperiam sequi optio lacinia id ipsum non velit, culpa.
-                                        voluptate rem ullam dolore nisi est quasi, doloribus tempora.</q>
-                                </blockquote>
-                                
-                            </div>
-                            <div class="testi-des">
-                                <div class="test-img"><img src="assets/images/team3.jpg" class="img-fluid"
-                                    alt="client-img">
-                                </div>
-                                <div class="peopl align-self">
-                                    <h4>Bruce Bailey </h4>
-                                    <p class="indentity">Student </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimonial-content">
-                            <div class="testimonial">
-                                <blockquote>
-                                    <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita beatae
-                                        laudantium Quas minima sunt natus tempore, maiores aliquid modi felis vitae
-                                        facere aperiam sequi optio lacinia id ipsum non velit, culpa.
-                                        voluptate rem ullam dolore nisi est quasi, doloribus tempora.</q>
-                                </blockquote>
-                                
-                            </div>
-                            <div class="testi-des">
-                                <div class="test-img"><img src="assets/images/team3.jpg" class="img-fluid"
-                                    alt="client-img">
-                                </div>
-                                <div class="peopl align-self">
-                                    <h4>Ruth Edwards</h4>
-                                    <p class="indentity">Student </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimonial-content">
-                            <div class="testimonial">
-                                <blockquote>
-                                    <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita beatae
-                                        laudantium Quas minima sunt natus tempore, maiores aliquid modi felis vitae
-                                        facere aperiam sequi optio lacinia id ipsum non velit, culpa.
-                                        voluptate rem ullam dolore nisi est quasi, doloribus tempora.</q>
-                                </blockquote>
-                            </div>
-                            <div class="testi-des">
-                                <div class="test-img">
-                                    <img src="assets/images/team1.jpg" class="img-fluid" alt="client-img">
-                                </div>
-                                <div class="peopl align-self">
-                                    <h4>Gloria Parker</h4>
-                                    <p class="indentity">Student </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimonial-content">
-                            <div class="testimonial">
-                                <blockquote>
-                                    <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita beatae
-                                        laudantium Quas minima sunt natus tempore, maiores aliquid modi felis vitae
-                                        facere aperiam sequi optio lacinia id ipsum non velit, culpa.
-                                        voluptate rem ullam dolore nisi est quasi, doloribus tempora.</q>
-                                </blockquote>
-                            </div>
-                            <div class="testi-des">
-                                <div class="test-img"><img src="assets/images/team2.jpg" class="img-fluid"
-                                    alt="client-img">
-                            </div>
-                                <div class="peopl align-self">
-                                    <h4>Tommy sakura</h4>
-                                    <p class="indentity">Student </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /grids -->
-    </div>
-    <!-- //grids -->
-</section>
-<!-- //testimonials -->
+</div>
+<!-- //content-1-->
 
 <?php include 'footer.php'; ?>
