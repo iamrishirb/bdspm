@@ -20,7 +20,7 @@
                         </p>
                         <p class="my-2">
                             <strong style="color:#888;"><i class="fa fa-phone"></i></strong> 
-                            <a href="tel:+91 6306353375">+91 6306353375</a>
+                            <a href="tel:+91 9919994406">+91 9919994406</a>
                         </p>
                         <p><strong style="color:#888;"><i class="fa fa-envelope"></i></strong> <a href="mailto:info@bdspm.org">info@bdspm.org</a></p>
                     </div>

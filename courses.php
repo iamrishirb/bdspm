@@ -3,21 +3,81 @@
     include 'navigation.php';
 ?>
 
-<!-- breadcrumb area -->
-<!-- <div class="inner-banner">
-    <section class="w3l-breadcrumb">
-      <div class="container">
-        <ul class="breadcrumbs-custom-path">
-          <li><a href="index.html">Home</a></li>
-          <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span> Courses</li>
-        </ul>
-      </div>
-    </section>
-</div> -->
-<!-- about page about section -->
+<!-- // breadcrumb area -->
+<section class="w3l-form-25-section pt-5" id="subsribe">
+    <div class="form-25-mian">
+        <div class="container py-5">
+            <div class="row subscription-grids">
+                <div class="col py-5">
+                    <div class="header-title text-center">
+                        <li class="active">
+                            <h3 class="p-0">Our Courses</h3>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- breadcrumb area // -->
 
-<!-- /content-1-->
-<div class="content-1 py-5">
+<!--/courses-->
+<div class="w3l-homeblog py-5" id="homeblog">
+    <div class="container py-lg-5 py-md-4">
+        <div class="header-title mb-3">
+            <span class="sub-title">Our Courses</span>
+            <h3 class="hny-title text-left">Programs we run</h3>
+            <br>
+            <p>There are total 4 main Programs in our college campus in which we are running UG & PG Courses</p>
+        </div>
+        <div class="row top-pics ">
+            <div class="col-lg-3 col-md-6 mt-5">
+                <div class="top-pic1">
+                    <div class="card-body blog-details">
+                        <p class="course-sub">Intake: 420 Seats</p>
+                        <a href="#" class="blog-desc">B.A.
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mt-5">
+                <div class="top-pic2">
+                    <div class="card-body blog-details">
+                        <p class="course-sub">Intake: 120 Seats</p>
+                        <a href="#" class="blog-desc">B.Sc.
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mt-5">
+                <div class="top-pic4">
+                    <div class="card-body blog-details">
+                        <p class="course-sub">Intake: 60 Seats</p>
+                        <a href="#" class="blog-desc">B.Com.
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mt-5">
+                <div class="top-pic3">
+                    <div class="card-body blog-details">
+                        <p class="course-sub">Intake: 50 Seats</p>
+                        <a href="#" class="blog-desc">D.L.Ed.
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="readhny-btm text-center mx-auto mt-md-4">
+                <a class="btn btn-primary btn-style mt-md-5 mt-4" href="about.html">Program Details <span
+                        class="fa fa-chevron-right ml-2" aria-hidden="true"></span></a>
+            </div> -->
+        </div>
+    </div>
+</div>
+<!--//courses-->
+
+<!-- // maintenance-->
+<!-- <div class="content-1 py-5">
     <div class="container py-md-5">
         <div class="row content-1-grids">
             <div class="col-lg-12 pl-lg-5 mt-lg-0 mt-4 py-4 text-center">
@@ -29,241 +89,8 @@
             </div>
         </div>
     </div>
-</div>
-<!-- //content-1-->
-
-<!--/courses-->
-<!-- <section class="w3l-blogpost-content w3l-courses py-5">
-    <div class="container py-md-5">
-        <div class="header-title mb-md-5 mb-4">
-            <span class="sub-title">Top Courses</span>
-            <h3 class="hny-title text-left"> Popular Courses</h3>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 item">
-                <div class="card">
-                    <div class="card-header p-0 position-relative">
-
-                    <a href="#">
-                        <img class="card-img-bottom d-block radius-image-full" src="assets/images/ab8.jpg" alt="Card image cap">
-                    </a>
-                    </div>
-                    <div class="card-body blog-details">
-                    <p class="price-review">$89.00</p>
-                    <a href="#" class="blog-desc mt-2">Learning to Write as a Professional Author
-                    </a>
-                    <div class="course-meta mt-1">
-                        <div class="meta-item course-lesson">
-                        <span class="fa fa-file-code-o"></span>
-                        <span class="meta-value"> 10 Lessons </span>
-                        </div>
-                        <div class="meta-item course-students">
-                        <span class="fa fa-user-o"></span>
-                        <span class="meta-value"> 40 Students </span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
-                <div class="card">
-                    <div class="card-header p-0 position-relative">
-                    <a href="#">
-                        <img class="card-img-bottom d-block radius-image-full" src="assets/images/ab2.jpg" alt="Card image cap">
-                    </a>
-                    </div>
-                    <div class="card-body blog-details">
-                    <p class="price-review">$99.00</p>
-                    <a href="#" class="blog-desc mt-2">Learn Master JQuery in a Short Period of Time</a>
-                    <div class="course-meta mt-1">
-                        <div class="meta-item course-lesson">
-                        <span class="fa fa-file-code-o"></span>
-                        <span class="meta-value"> 20 Lessons </span>
-                        </div>
-                        <div class="meta-item course-students">
-                        <span class="fa fa-user-o"></span>
-                        <span class="meta-value"> 40 Students </span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
-                <div class="card">
-                    <div class="card-header p-0 position-relative">
-                    <a href="#">
-                        <img class="card-img-bottom d-block radius-image-full" src="assets/images/ab6.jpg" alt="Card image cap">
-                    </a>
-                    </div>
-                    <div class="card-body blog-details">
-                    <p class="price-review">$129.00</p>
-                    <a href="#" class="blog-desc mt-2">Learning to Write as a Professional Author
-                    </a>
-                    <div class="course-meta mt-1">
-                        <div class="meta-item course-lesson">
-                        <span class="fa fa-file-code-o"></span>
-                        <span class="meta-value"> 30 Lessons </span>
-                        </div>
-                        <div class="meta-item course-students">
-                        <span class="fa fa-user-o"></span>
-                        <span class="meta-value"> 60 Students </span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-5">
-                <div class="card">
-                    <div class="card-header p-0 position-relative">
-
-                    <a href="#">
-                        <img class="card-img-bottom d-block radius-image-full" src="assets/images/ab4.jpg" alt="Card image cap">
-                    </a>
-                    </div>
-                    <div class="card-body blog-details">
-                    <p class="price-review">$89.00</p>
-                    <a href="#" class="blog-desc mt-2">Learning to Write as a Professional Author
-                    </a>
-                    <div class="course-meta mt-1">
-                        <div class="meta-item course-lesson">
-                        <span class="fa fa-file-code-o"></span>
-                        <span class="meta-value"> 10 Lessons </span>
-                        </div>
-                        <div class="meta-item course-students">
-                        <span class="fa fa-user-o"></span>
-                        <span class="meta-value"> 40 Students </span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-5">
-                <div class="card">
-                    <div class="card-header p-0 position-relative">
-                    <a href="#">
-                        <img class="card-img-bottom d-block radius-image-full" src="assets/images/ab5.jpg" alt="Card image cap">
-                    </a>
-                    </div>
-                    <div class="card-body blog-details">
-                    <p class="price-review">$99.00</p>
-                    <a href="#" class="blog-desc mt-2">Learn Master JQuery in a Short Period of Time</a>
-                    <div class="course-meta mt-1">
-                        <div class="meta-item course-lesson">
-                        <span class="fa fa-file-code-o"></span>
-                        <span class="meta-value"> 20 Lessons </span>
-                        </div>
-                        <div class="meta-item course-students">
-                        <span class="fa fa-user-o"></span>
-                        <span class="meta-value"> 30 Students </span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-5">
-                <div class="card">
-                    <div class="card-header p-0 position-relative">
-                    <a href="#">
-                        <img class="card-img-bottom d-block radius-image-full" src="assets/images/ab.jpg" alt="Card image cap">
-                    </a>
-                    </div>
-                    <div class="card-body blog-details">
-                    <p class="price-review">$129.00</p>
-                    <a href="#" class="blog-desc mt-2">Learning to Write as a Professional Author
-                    </a>
-                    <div class="course-meta mt-1">
-                        <div class="meta-item course-lesson">
-                        <span class="fa fa-file-code-o"></span>
-                        <span class="meta-value"> 10 Lessons </span>
-                        </div>
-                        <div class="meta-item course-students">
-                        <span class="fa fa-user-o"></span>
-                        <span class="meta-value"> 40 Students </span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-5">
-                <div class="card">
-                    <div class="card-header p-0 position-relative">
-
-                    <a href="#">
-                        <img class="card-img-bottom d-block radius-image-full" src="assets/images/ab1.jpg" alt="Card image cap">
-                    </a>
-                    </div>
-                    <div class="card-body blog-details">
-                    <p class="price-review">$89.00</p>
-                    <a href="#" class="blog-desc mt-2">Learning to Write as a Professional Author
-                    </a>
-                    <div class="course-meta mt-1">
-                        <div class="meta-item course-lesson">
-                        <span class="fa fa-file-code-o"></span>
-                        <span class="meta-value"> 10 Lessons </span>
-                        </div>
-                        <div class="meta-item course-students">
-                        <span class="fa fa-user-o"></span>
-                        <span class="meta-value"> 40 Students </span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-5">
-                <div class="card">
-                    <div class="card-header p-0 position-relative">
-                    <a href="#">
-                        <img class="card-img-bottom d-block radius-image-full" src="assets/images/ab7.jpg" alt="Card image cap">
-                    </a>
-                    </div>
-                    <div class="card-body blog-details">
-                    <p class="price-review">$99.00</p>
-                    <a href="#" class="blog-desc mt-2">Learn Master JQuery in a Short Period of Time</a>
-                    <div class="course-meta mt-1">
-                        <div class="meta-item course-lesson">
-                        <span class="fa fa-file-code-o"></span>
-                        <span class="meta-value"> 20 Lessons </span>
-                        </div>
-                        <div class="meta-item course-students">
-                        <span class="fa fa-user-o"></span>
-                        <span class="meta-value"> 30 Students </span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-5">
-                <div class="card">
-                    <div class="card-header p-0 position-relative">
-                    <a href="#">
-                        <img class="card-img-bottom d-block radius-image-full" src="assets/images/ab3.jpg" alt="Card image cap">
-                    </a>
-                    </div>
-                    <div class="card-body blog-details">
-                    <p class="price-review">$129.00</p>
-                    <a href="#" class="blog-desc mt-2">Learning to Write as a Professional Author
-                    </a>
-                    <div class="course-meta mt-1">
-                        <div class="meta-item course-lesson">
-                        <span class="fa fa-file-code-o"></span>
-                        <span class="meta-value"> 10 Lessons </span>
-                        </div>
-                        <div class="meta-item course-students">
-                        <span class="fa fa-user-o"></span>
-                        <span class="meta-value"> 40 Students </span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="course-button mt-lg-4 text-center">
-            <a href="contact.html" class="btn btn-style btn-primary pt-lg-3 mt-sm-5 mt-4">Start Today <span
-                class="fa fa-chevron-right ml-2" aria-hidden="true"></span></a>
-        </div>
-    </div>
-</section> -->
-<!--//courses-->
+</div> -->
+<!-- maintenance script //-->
 
 <?php  
     include 'footer.php';

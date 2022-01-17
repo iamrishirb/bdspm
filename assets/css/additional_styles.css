@@ -99,6 +99,9 @@
     -o-transition: .3s ease;
 }
 
+p.facts {
+    width: 0%;
+}
 
 /* Media Queries */
 @media screen and (max-width : 998px) {
@@ -119,6 +122,9 @@
     section.w3_stats {
         margin-top: -6rem;
         padding: 0px 40px;
+    }
+    p.facts {
+        width: 90%;
     }
 }
 @media screen and (max-width : 472px) {
@@ -160,6 +166,9 @@
     }
     .w3l-form-25-section h3 {
         font-size: 2.2rem;
+    }
+    p.facts {
+        width: 100%;
     }
 }
 

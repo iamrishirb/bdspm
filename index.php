@@ -15,7 +15,7 @@
                                 <div class="banner-info-bg">
                                     <h5>Best Degree College in Karvi</h5>
                                     <p class="mt-4 pr-lg-4">Choose from over 5 plus Courses in multiple domains and give wings to your career with the support of best faculty </p>
-                                    <a class="btn btn-style btn-primary mt-xl-5 mt-4 mr-2" href="register.php"> Register Now <span class="fa fa-chevron-right ml-2"
+                                    <a class="btn btn-style btn-primary mt-xl-5 mt-4 mr-2" href="admission.php"> Admission Process <span class="fa fa-chevron-right ml-2"
                                             aria-hidden="true"></span></a>
                                     <a class="btn btn-style btn-white mt-xl-5 mt-4" href="courses.php"> View
                                         Courses <span class="fa fa-chevron-right ml-2"
@@ -32,13 +32,11 @@
                         <div class="banner-info">
                             <div class="container">
                                 <div class="banner-info-bg">
-                                    <h5>Admissions Open for 2021-22 Session</h5>
-                                    <p class="mt-4 pr-lg-4">Enroll in one of our Graduate / Post Graduate courses accredited from Bundelkhand University</p>
-                                    <a class="btn btn-style btn-primary mt-xl-5 mt-4 mr-2" href="register.php"> Get
-                                        Started <span class="fa fa-chevron-right ml-2"
+                                    <h5>Over 2000 Books in Library</h5>
+                                    <p class="mt-4 pr-lg-4">We have a wide collection of course books and other literature / fiction that helps in overall development of young minds.</p>
+                                    <a class="btn btn-style btn-primary mt-xl-5 mt-4 mr-2" href="library.php"> View Library <span class="fa fa-chevron-right ml-2"
                                             aria-hidden="true"></span></a>
-                                    <a class="btn btn-style btn-white mt-xl-5 mt-4" href="courses.php"> View
-                                        Courses <span class="fa fa-chevron-right ml-2"
+                                    <a class="btn btn-style btn-white mt-xl-5 mt-4" href="activities.php"> Student Activities <span class="fa fa-chevron-right ml-2"
                                             aria-hidden="true"></span></a>
                                 </div>
                             </div>
@@ -54,7 +52,7 @@
                                 <div class="banner-info-bg">
                                     <h5>सत्र २०२१ - २२ के लिए प्रवेश प्रारम्भ</h5>
                                     <p class="mt-4 pr-lg-4">शीघ्रातिशीघ्र संस्थान में आकर अपना प्रवेश सुनिश्चित करें एवं कुशल अध्यापकों से मार्गदर्शन प्राप्त करें </p>
-                                    <a class="btn btn-style btn-primary mt-xl-5 mt-4 mr-2" href="register.php">रजिस्टर करें<span class="fa fa-chevron-right ml-2"
+                                    <a class="btn btn-style btn-primary mt-xl-5 mt-4 mr-2" href="admission.php">प्रवेश प्रक्रिया <span class="fa fa-chevron-right ml-2"
                                             aria-hidden="true"></span></a>
                                     <a class="btn btn-style btn-white mt-xl-5 mt-4" href="courses.php">कोर्सेस देखें <span class="fa fa-chevron-right ml-2"k aria-hidden="true"></span></a>
                                 </div>
@@ -72,7 +70,7 @@
                                     <h5>Recognised by NCTE</h5>
                                     <p class="mt-4 pr-lg-4">Our Institute is recognised by National Council for Teacher Education and 
                                         our courses are under approval from the Council which gives an added advantage.</p>
-                                    <a class="btn btn-style btn-primary mt-xl-5 mt-4 mr-2" href="register.php"> 
+                                    <a class="btn btn-style btn-primary mt-xl-5 mt-4 mr-2" href="https://ncte.gov.in/website/index.aspx" target="_blank"> 
                                         Visit NCTE Website<span class="fa fa-chevron-right ml-2" aria-hidden="true"></span></a>
                                 </div>
                             </div>
@@ -197,13 +195,13 @@
                 <div class="top-pic3">
                     <div class="card-body blog-details">
                         <p class="course-sub">Intake: 50 Seats</p>
-                        <a href="#" class="blog-desc">D.L.Ed.
+                        <a href="#" class="blog-desc">D.El.Ed.
                         </a>
                     </div>
                 </div>
             </div>
             <div class="readhny-btm text-center mx-auto mt-md-4">
-                <a class="btn btn-primary btn-style mt-md-5 mt-4" href="about.html">Program Details <span
+                <a class="btn btn-primary btn-style mt-md-5 mt-4" href="courses.php">Program Details <span
                         class="fa fa-chevron-right ml-2" aria-hidden="true"></span></a>
             </div>
         </div>
