@@ -28,53 +28,71 @@
             <span class="sub-title">Our Courses</span>
             <h3 class="hny-title text-left">Programs we run</h3>
             <br>
-            <p>There are total 4 main Programs in our college campus in which we are running UG & PG Courses</p>
+            <p>There are total 6 main Programs in our college campus in which we are running UG & PG Courses</p>
         </div>
         <div class="row top-pics ">
-            <div class="col-lg-3 col-md-6 mt-5">
+            <div class="col-lg-6 col-md-6 mt-5">
                 <div class="top-pic1">
                     <div class="card-body blog-details">
                         <p class="course-sub">Intake: 420 Seats</p>
-                        <a href="#" class="blog-desc">B.A.
-                        </a>
+                        <a href="#" class="blog-desc">Bachelor of Arts</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mt-5">
+            <div class="col-lg-6 col-md-6 mt-5">
                 <div class="top-pic2">
                     <div class="card-body blog-details">
                         <p class="course-sub">Intake: 120 Seats</p>
-                        <a href="#" class="blog-desc">B.Sc.
-                        </a>
+                        <a href="#" class="blog-desc">Bachelor of Science</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mt-5">
-                <div class="top-pic4">
-                    <div class="card-body blog-details">
-                        <p class="course-sub">Intake: 60 Seats</p>
-                        <a href="#" class="blog-desc">B.Com.
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mt-5">
+        </div>
+
+        <!-- course row -->
+        <div class="row top-pics ">
+            <div class="col-lg-6 col-md-6 mt-5">
                 <div class="top-pic3">
                     <div class="card-body blog-details">
-                        <p class="course-sub">Intake: 50 Seats</p>
-                        <a href="#" class="blog-desc">D.L.Ed.
-                        </a>
+                        <p class="course-sub">Intake: 60 Seats</p>
+                        <a href="#" class="blog-desc">Bachelor of Commerce</a>
                     </div>
                 </div>
             </div>
-            <!-- <div class="readhny-btm text-center mx-auto mt-md-4">
-                <a class="btn btn-primary btn-style mt-md-5 mt-4" href="about.html">Program Details <span
-                        class="fa fa-chevron-right ml-2" aria-hidden="true"></span></a>
-            </div> -->
+            <div class="col-lg-6 col-md-6 mt-5">
+                <div class="top-pic4">
+                    <div class="card-body blog-details">
+                        <p class="course-sub">Intake: 50 Seats</p>
+                        <a href="#" class="blog-desc">Diploma in Elementary Education</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- course row -->
+        <div class="row top-pics ">
+            <div class="col-lg-6 col-md-6 mt-5">
+                <div class="top-pic1">
+                    <div class="card-body blog-details">
+                        <p class="course-sub">Intake: -- Seats</p>
+                        <a href="#" class="blog-desc">Master of Arts</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 mt-5">
+                <div class="top-pic2">
+                    <div class="card-body blog-details">
+                        <p class="course-sub">Intake: -- Seats</p>
+                        <a href="#" class="blog-desc">Master of Science</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 <!--//courses-->
+
+
 
 <!-- // maintenance-->
 <!-- <div class="content-1 py-5">

@@ -95,9 +95,11 @@
                 </div>
                 <div class="section-content notices">
                     <marquee behavior="top" direction="up">
-                        <a href="#" class="notice">Admissions Started for the session 2021 - 22</a>
-                        <a href="#" class="notice">UP Government Fee Reimbursement and Scholarship Form</a>
-                        <a href="#" class="notice">Enroll at the new courses and get best faculty support</a>
+                        <a href="admission.php" target="_blank" class="notice">Admissions Started for the session 2021 - 22</a>
+                        <a href="http://scholarship.up.gov.in/" target="_blank" class="notice">UP Government Fee Reimbursement and Scholarship Form</a>
+                        <a href="courses.php" target="_blank" class="notice">Enroll at the new courses and get best faculty support</a>
+                        <a href="https://www.bujhansi.ac.in/" target="_blank" class="notice">Bundelkhand University Website Link</a>
+                        <a href="https://ncte.gov.in/website/index.aspx" target="_blank" class="notice">NCTE Website Link</a>
                         <!-- <a href="#" class="notice"></a> -->
                     </marquee>
                 </div>
@@ -109,9 +111,9 @@
                     <h2 class="title-thin">Student Corner</h2>
                 </div>
                 <div class="section-content notices info-buttons">
-                    <a href="#" class="button-info btn-orange">Admission Process</a>
-                    <a href="#" class="button-info btn-blue">Scholarship Process</a>
-                    <a href="#" class="button-info btn-yellow">Examination Form</a>
+                    <a href="admission.php" class="button-info btn-orange">Admission Process</a>
+                    <a href="scholarship.php" class="button-info btn-blue">Scholarship Process</a>
+                    <a href="examination.php" class="button-info btn-yellow">Examination Form</a>
                 </div>
             </div>
 
@@ -161,42 +163,39 @@
             <span class="sub-title">Our Courses</span>
             <h3 class="hny-title text-left">Programs we run</h3>
             <br>
-            <p>There are total 4 main Programs in our college campus in which we are running UG & PG Courses</p>
+            <p>There are total 4 main Programs in our college campus in which we are
+                 running UG & PG Courses. </p>
         </div>
         <div class="row top-pics ">
             <div class="col-lg-3 col-md-6 mt-5">
                 <div class="top-pic1">
                     <div class="card-body blog-details">
-                        <p class="course-sub">Intake: 420 Seats</p>
-                        <a href="#" class="blog-desc">B.A.
-                        </a>
+                        <p class="course-sub">UG & PG Courses</p>
+                        <a href="#" class="blog-desc">Arts</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mt-5">
                 <div class="top-pic2">
                     <div class="card-body blog-details">
-                        <p class="course-sub">Intake: 120 Seats</p>
-                        <a href="#" class="blog-desc">B.Sc.
-                        </a>
+                        <p class="course-sub">UG & PG Courses</p>
+                        <a href="#" class="blog-desc">Science</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mt-5">
                 <div class="top-pic4">
                     <div class="card-body blog-details">
-                        <p class="course-sub">Intake: 60 Seats</p>
-                        <a href="#" class="blog-desc">B.Com.
-                        </a>
+                        <p class="course-sub">UG & PG Courses</p>
+                        <a href="#" class="blog-desc">Commerce</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mt-5">
                 <div class="top-pic3">
                     <div class="card-body blog-details">
-                        <p class="course-sub">Intake: 50 Seats</p>
-                        <a href="#" class="blog-desc">D.El.Ed.
-                        </a>
+                        <p class="course-sub">Diploma Courses</p>
+                        <a href="#" class="blog-desc">Education</a>
                     </div>
                 </div>
             </div>
@@ -222,6 +221,7 @@
     </div>
 </div>
 <!-- //middle -->
+
 <!-- stats -->
 <section class="w3_stats py-lg-0 py-5" id="stats">
     <div class="container">
@@ -258,39 +258,7 @@
             </div>
         </div>
     </div>
-</section>
-<!-- //stats -->
-<!-- home page video popup section -->
-<section class="w3l-videohny" id="video">
-    <div class="new-block py-5">
-        <div class="container py-lg-5">
-                <div class="history-info position-relative">
-                        <!--//video-->
-                        <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center pl-3">
-                            <span class="video-play-icon">
-                                <span class="fa fa-play"></span>
-                            </span>
-                        </a>
 
-                        <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
-                        <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
-                            <iframe src="https://player.vimeo.com/video/18212142" frameborder="0"
-                                allow="autoplay; fullscreen" allowfullscreen></iframe>
-                        </div>
-                        <!--//video-->
-                    </div>
-
-                <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
-                <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
-                    <iframe src="https://player.vimeo.com/video/18212142" frameborder="0"
-                                allow="autoplay; fullscreen" allowfullscreen></iframe>
-                </div>
-            </div>
-    </div>
-</section>
-<!-- //home page video popup section -->
-<!-- /content-1-->
-<div class="content-1 py-5">
     <div class="container py-md-5">
         <div class="row content-1-grids">
             <div class="col-lg-9 pl-lg-5 mt-lg-0 py-4 content-1-left forms-25-info">
@@ -311,7 +279,7 @@
             </div>
         </div>
     </div>
-</div>
-<!-- //content-1-->
+</section>
+<!-- //stats -->
 
 <?php include 'footer.php'; ?>
