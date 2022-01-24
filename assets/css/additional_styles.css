@@ -30,7 +30,7 @@
 .notices {
    height: 240px;
    border-radius: 0px 0px 25px 25px;
-   box-shadow: 10px 10px 30px rgba(204, 204, 204, 0.4); 
+   box-shadow: 10px 10px 30px rgba(204, 204, 204, 0.4);
 }
 .notice-section .notices marquee {
     max-width: fit-content;
@@ -86,7 +86,7 @@
 }
 
 .facilities > .counter {
-    background-color: transparent; 
+    background-color: transparent;
     box-shadow: none;
     border: none;
     padding: 40px 20px;
@@ -100,7 +100,7 @@
 }
 
 p.facts {
-    width: 0%;
+    width: 100%;
 }
 
 /* Media Queries */

@@ -32,7 +32,7 @@
                             <li><a href="gallery.php">Photo Gallery</a></li>
                             <li><a href="faculties.php">Faculties</a></li>
                             <li><a href="courses.php">Courses</a></li>
-                            <li><a href="library.php">Library</a></li>
+                            <li><a href="ims/login">Institute Login</a></li>
                             <!-- <li><a href="faculties.php">Faculties</a></li> -->
                         </ul>
                     </div>
@@ -45,9 +45,6 @@
                             <li><a href="instructions.php">Student Instructions</a></li>
                             <li><a href="fees.php">Fee Structure</a></li>
                             <li><a href="examination.php">Examination</a></li>
-                            <!-- <li><a href="#history">History</a></li>
-                            <li><a href="#leader">Leadership</a></li>
-                            <li><a href="#help">Help</a></li> -->
                         </ul>
                     </div>
                 </div>

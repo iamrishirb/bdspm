@@ -54,9 +54,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.php">Contact Us</a>
                     </li>
-                    <!-- <li class="nav-item  btn btn-primary" style="padding: 2px 24px; margin-left: 20px;">
-                        <a class="nav-link" href="register.php">Registration</a>
-                    </li> -->
+                    <a class="nav-item btn btn-primary" href="ims/login" style="padding: 2px 20px; margin-left: 20px;">
+                        <li class="nav-link">Login</li>
+                    </a>
                 </ul>
             </div>
             <!-- toggle switch for light and dark theme -->
