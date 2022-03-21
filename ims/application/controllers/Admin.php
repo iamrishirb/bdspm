@@ -1,14 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-/*
-*  @author   : Creativeitem
-*  date      : November, 2019
-*  Ekattor School Management System With Addons
-*  http://codecanyon.net/user/Creativeitem
-*  http://support.creativeitem.com
-*/
-
 class Admin extends CI_Controller {
 
 	public function __construct(){
@@ -562,9 +554,32 @@ class Admin extends CI_Controller {
 		}
 
 		if($param1 == 'filter'){
-			$page_data['class_id'] = $param2;
-			$page_data['section_id'] = $param3;
-			$this->load->view('backend/admin/student/list', $page_data);
+
+			$json= $this->input->get('json');
+			if($json ==1 )
+			{
+				$school_id = school_id(); 
+				$enrols = $this->db->where([ 
+					'class_id' => $param2 , 
+					'section_id' => $param3 ,
+					'school_id' => $school_id 
+					])
+				->get('enrols')
+				->result_array();
+				if(count($enrols) > 0 )
+				{
+					$stuid=  array_column($enrols,'student_id');	
+					$students=	$this->db->select('id, name')->where_in('id',$stuid )->get('users')->result_array();
+					echo json_encode( ['success' => count($students) , 'data' => $students] );				
+			}else echo json_encode( ['success' => 0 ] );
+				// $student = $this->db->get_where('students', array('id' => $enroll['student_id']))->row_array();
+				// $student = $this->db->get_where('students', array('id' => $enroll['student_id']))->row_array();	
+			}
+			else {
+				$page_data['class_id'] = $param2;
+				$page_data['section_id'] = $param3;
+				$this->load->view('backend/admin/student/list', $page_data);
+			}
 		}
 
 		if(empty($param1)){

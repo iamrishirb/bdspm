@@ -19,7 +19,15 @@
                 <td> <?php echo sprintf('%08d', $invoice['id']); ?> </td>
                 <td>
                     <?php echo $student_details['name']; ?> <br>
-                    <small> <strong><?php echo get_phrase('class'); ?> :</strong> <?php echo $class_details['name']; ?></small>
+                    <small> 
+                    <strong>
+                        <?php echo get_phrase('class'); ?> :</strong> 
+                        <?php echo $class_details['name']; ?>
+                    </small><br>
+                    <small> 
+                        <strong><?php echo get_phrase('section'); ?> :</strong> 
+                        <?=  $student_details['section_name'] ?> 
+                    </small>
                 </td>
                 <td> <?php echo $invoice['title']; ?> </td>
                 <td>

@@ -1216,5 +1216,6 @@
     "_admin_dashboard": " admin dashboard",
     "student_deleted_successfully": "Student deleted successfully",
     "paid_amount_is_not_equal_to_total_amount": "Paid amount is not equal to total amount",
-    "college_admin": "College admin"
+    "college_admin": "College admin",
+    "select_class": "Select class"
 }
