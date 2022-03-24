@@ -27,6 +27,22 @@
     <label for="remarks"><?php echo get_phrase('remarks') ?></label>
     <input type="text" class="form-control" id="remarks" name = "remarks" placeholder="<?php echo get_phrase('enter_remarks');?>" >
 </div>
+<!--TYPE OF FEE-------------------------------------------------------------------------------------->
+<div class="form-group mb-1">
+        <label for="type_of_fee_id"><?php echo get_phrase('type_of_fee');?></label>
+        <div id = "type_of_fee_id">
+            <select name="type_of_fee_id" id="type_of_fee_id" class="form-control select1" data-bs-toggle="select1" required >
+                <option value="">Select type of fee</option>
+                <option value="Admission fee">Admission fee</option>
+                <option value="Tution fee">Tution fee</option>
+                <option value="Examination fee">Examination fee</option>
+                <option value="Laboratory fee">Laboratory fee</option>
+                <option value="Library fee">Library fee</option>
+                <option value="Miscellaneous">Miscellaneous</option>
+            </select>
+        </div>
+    </div>
+</div>
 <!--METHOD-------------------------------------------------------------------------------------->
 <div class="form-group mb-1">
     <label for="method"><?php echo get_phrase('method');?></label>

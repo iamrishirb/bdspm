@@ -92,6 +92,7 @@
                   <tr><th><?php echo get_phrase('payment_id'); ?></th>
                     <th><?php echo get_phrase('payment_date'); ?></th>
                     <th><?php echo get_phrase('remarks'); ?></th>
+                    <th><?php echo get_phrase('type_of_fee'); ?></th>
                     <th><?php echo get_phrase('method'); ?></th>
                     <th><?php echo get_phrase('paid_amount'); ?></th>
 
@@ -100,7 +101,8 @@
                   <tr>
                     <td><?php echo ($invoice_details['id']); ?></td>
                     <td><?php echo get_phrase('').date('D, d-M-Y', $pay['created_at']); ?></td>
-                    <td><?php echo ($invoice_details['remarks']); ?></td>                   
+                    <td><?php echo ($invoice_details['remarks']); ?></td>
+                    <td><?php echo ($invoice_details['type_of_fee_id']); ?></td>                    
                     <td><?php 
                           if ($invoice_details['payment_method'] == 1)
                               echo get_phrase('cash');
@@ -120,6 +122,7 @@
                         <?php echo get_phrase('').date('D, d-M-Y', $pay['timestamp']); ?>
                       </td>
                       <td><?php echo ($pay['remarks']); ?></td>
+                      <td><?php echo ($pay['type_of_fee_id']); ?></td>     
                       <td><?php 
                           if ($pay['method'] == 1)
                               echo get_phrase('cash');
@@ -159,6 +162,11 @@
             </div> <!-- end col -->
           </div>
           <!-- end row-->
+          <div class="col-sm-6">
+            <div class="text-start">
+            <img class="col-sm-6" src="<?php echo $this->settings_model->get_account_sign(); ?>" class="rounded float-start" alt="...">
+            </div>
+          </div>
 
           <div class="d-print-none mt-4">
             <div class="text-end">

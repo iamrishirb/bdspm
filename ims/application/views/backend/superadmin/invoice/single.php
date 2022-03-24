@@ -30,12 +30,13 @@
         <label for="type_of_fee_id"><?php echo get_phrase('type_of_fee');?></label>
         <div id = "type_of_fee_id">
             <select name="type_of_fee_id" id="type_of_fee_id" class="form-control select1" data-bs-toggle="select1" required >
-                <option value="1"><?php echo get_phrase('admission_fee');?></option>
-                <option value="2"><?php echo get_phrase('tution_fee');?></option>
-                <option value="3"><?php echo get_phrase('examination_fee');?></option>
-                <option value="4"><?php echo get_phrase('laboratory_fee');?></option>
-                <option value="5"><?php echo get_phrase('library_fee');?></option>
-                <option value="6"><?php echo get_phrase('miscellaneous');?></option>
+            <option value="">Select type of fee</option>
+                <option value="Admission fee">Admission fee</option>
+                <option value="Tution fee">Tution fee</option>
+                <option value="Examination fee">Examination fee</option>
+                <option value="Laboratory fee">Laboratory fee</option>
+                <option value="Library fee">Library fee</option>
+                <option value="Miscellaneous">Miscellaneous</option>
             </select>
         </div>
     </div>

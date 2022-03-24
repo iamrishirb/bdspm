@@ -1243,5 +1243,6 @@
     "bill_to,": "Bill to,",
     "payment_taken_successfully": "Payment taken successfully",
     "total_paid_amount": "Total paid amount",
-    "invoice_deleted_successfully": "Invoice deleted successfully"
+    "invoice_deleted_successfully": "Invoice deleted successfully",
+    "payment_cannot_be_made_after_no_dues": "Payment cannot be made after no dues"
 }

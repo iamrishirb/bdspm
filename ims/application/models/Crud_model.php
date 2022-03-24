@@ -280,7 +280,7 @@ class Crud_model extends CI_Model {
 	public function get_subject_by_id($subject_id = '') {
 		return $this->db->get_where('subjects', array('id' => $subject_id))->row_array();
 	}
-	
+
 	//END SUBJECT section
 
 
@@ -841,7 +841,7 @@ class Crud_model extends CI_Model {
 		}else{
 			return array();
 		}
-	
+
 	}
 //-------------------------------------------------------------------------------PAYMENT_ID
 	public function get_payment_by_id($payment_id = "") {
@@ -868,7 +868,7 @@ class Crud_model extends CI_Model {
 
 
 
-// This function will be triggered if parent logs in    
+// This function will be triggered if parent logs in
 /*
 public function get_payment_by_parent_id() {
 	$parent_user_id = $this->session->userdata('user_id');
@@ -994,8 +994,8 @@ public function get_payment_by_parent_id() {
 		return json_encode($response);
 	}
 	/*-----------------------------------------------------------TAKE PAYMENT CRUD MODEL */
-	public function take_payment($id = "") { 
-		
+	public function take_payment($id = "") {
+
 		$data['title']               = htmlspecialchars($this->input->post('title'));
 		$data['remarks']		     = htmlspecialchars($this->input->post('remarks'));
 		$data['invoice_id'] 		 = $this->input->post('invoice_id');
@@ -1007,30 +1007,34 @@ public function get_payment_by_parent_id() {
 		$data['payment_amount'] 	 = htmlspecialchars($this->input->post('payment_amount'));
 		$data['timestamp']           = strtotime(date('d-M-Y'));
 		$data2['due_amount']         = $this->input->post('due_amount');
-		if ($data2['due_amount'] <= 0) {
+
+		if ($data2['due_amount'] < $data['payment_amount']) {
 			$response = array(
 				'status' => false,
 				'notification' => get_phrase('payment_cannot_be_made_after_no_dues')
 			);
 			return json_encode($response);
-		}else{  
+		}else{
 		$this->db->insert('payment' , $data);
 		}
-		
+
 //		$data['year']         =   $this->db->get_where('settings' , array('type' => 'running_year'))->row()->description;
 
-//UPDATE INVOICES DATABASE PAID, due AMOUNT--------------------------------------------------------	
-        if(true){	
+//UPDATE INVOICES DATABASE PAID, due AMOUNT--------------------------------------------------------
+        if(true){
 		$this->db->where('id', $data['invoice_id']);
-		$invoice_details = $this->db->get('invoices')->row_array(); 
-		if($invoice_details['due_amount'] > 0){ 
-	//	$updater['status'] = 'unpaid';
+		$invoice_details = $this->db->get('invoices')->row_array();
+		if($invoice_details['due_amount'] > 0){
+			if($data2['due_amount'] == $data['payment_amount'])
+			{
+						$updater['status'] = 'paid';
+			}
 		$updater['paid_amount'] = $invoice_details['paid_amount'] + $data['payment_amount'];
 		$updater['due_amount']  = $invoice_details['due_amount'] - $data['payment_amount'];
-		$updater['updated_at']  = strtotime(date('d-M-Y'));	
+		$updater['updated_at']  = strtotime(date('d-M-Y'));
 		$this->db->where('id', $data['invoice_id']);
 		$this->db->update('invoices', $updater);
-	    }		
+	    }
 	}
 		$response = array(
 			'status' => true,
