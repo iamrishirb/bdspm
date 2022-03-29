@@ -1244,5 +1244,14 @@
     "payment_taken_successfully": "Payment taken successfully",
     "total_paid_amount": "Total paid amount",
     "invoice_deleted_successfully": "Invoice deleted successfully",
-    "payment_cannot_be_made_after_no_dues": "Payment cannot be made after no dues"
+    "payment_cannot_be_made_after_no_dues": "Payment cannot be made after no dues",
+    "print_student_registration": "Print student registration",
+    "student_registration_receipt": "Student registration receipt",
+    "registration_form": "Registration form",
+    "enrollment_no": "Enrollment no",
+    "father_name": "Father name",
+    "adhaar_number": "Adhaar number",
+    "date_of_registration": "Date of registration",
+    "mobile_number": "Mobile number",
+    "email_id": "Email id"
 }
