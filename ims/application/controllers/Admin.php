@@ -31,7 +31,7 @@ class Admin extends CI_Controller {
 
 		/*LOAD EXTERNAL LIBRARIES*/
     $this->load->library('pdf');
-		
+
 		if($this->session->userdata('admin_login') != 1){
 			redirect(site_url('login'), 'refresh');
 		}
@@ -534,6 +534,15 @@ class Admin extends CI_Controller {
 			$this->load->view('backend/index', $page_data);
 		}
 
+		// print student registration
+		if($param1 == 'print') {
+			$page_data['student_id'] = $param2;
+			$page_data['folder_name'] = 'student';
+			$page_data['page_title'] = 'print_student_registration';
+			$page_data['page_name'] = 'print';
+			$this->load->view('backend/index', $page_data);
+		 }
+
 		//updated to database
 		if($param1 == 'updated'){
 			$response = $this->user_model->student_update($param2, $param3);
@@ -558,22 +567,22 @@ class Admin extends CI_Controller {
 			$json= $this->input->get('json');
 			if($json ==1 )
 			{
-				$school_id = school_id(); 
-				$enrols = $this->db->where([ 
-					'class_id' => $param2 , 
+				$school_id = school_id();
+				$enrols = $this->db->where([
+					'class_id' => $param2 ,
 					'section_id' => $param3 ,
-					'school_id' => $school_id 
+					'school_id' => $school_id
 					])
 				->get('enrols')
 				->result_array();
 				if(count($enrols) > 0 )
 				{
-					$stuid=  array_column($enrols,'student_id');	
+					$stuid=  array_column($enrols,'student_id');
 					$students=	$this->db->select('id, name')->where_in('id',$stuid )->get('users')->result_array();
-					echo json_encode( ['success' => count($students) , 'data' => $students] );				
+					echo json_encode( ['success' => count($students) , 'data' => $students] );
 			}else echo json_encode( ['success' => 0 ] );
 				// $student = $this->db->get_where('students', array('id' => $enroll['student_id']))->row_array();
-				// $student = $this->db->get_where('students', array('id' => $enroll['student_id']))->row_array();	
+				// $student = $this->db->get_where('students', array('id' => $enroll['student_id']))->row_array();
 			}
 			else {
 				$page_data['class_id'] = $param2;
@@ -735,7 +744,7 @@ class Admin extends CI_Controller {
 		$response = $this->crud_model->take_payment($param2);
 		echo $response;
 		}
-	  
+
 
     // For editing invoice
     if ($param1 == 'update') {
@@ -782,7 +791,7 @@ class Admin extends CI_Controller {
 		$page_data['page_name'] = 'print_invoice';
 		$page_data['page_title']  = 'invoice';
 		$this->load->view('backend/index', $page_data);
-	}  
+	}
 
     // showing the index file
     if(empty($param1)){
@@ -800,7 +809,7 @@ class Admin extends CI_Controller {
 
   //PAYMENT HISTORY
   public function payment_history(){
-    
+
     // showing the index file
     if(empty($param1)){
       $page_data['folder_name'] = 'invoice';
@@ -813,8 +822,8 @@ class Admin extends CI_Controller {
       $page_data['selected_class'] = 'all';
       $page_data['selected_status'] = 'all';
       $this->load->view('backend/index', $page_data);
-    }   
- 
+    }
+
   }
 
   //EXPORT STUDENT FEES
