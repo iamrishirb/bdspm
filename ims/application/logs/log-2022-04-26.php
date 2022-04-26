@@ -391,3 +391,16 @@ ERROR - 2022-04-26 09:46:59 --> Severity: Warning --> Undefined variable $paymen
 ERROR - 2022-04-26 09:46:59 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\Codeigniter\ims-demo-Scholarship\application\views\backend\superadmin\invoice\list.php 81
 ERROR - 2022-04-26 09:47:49 --> Severity: Warning --> Undefined variable $student_id C:\xampp\htdocs\Codeigniter\ims-demo-Scholarship\application\views\backend\superadmin\invoice\add_single_list.php 3
 ERROR - 2022-04-26 09:49:51 --> Severity: Warning --> Undefined variable $student_id C:\xampp\htdocs\Codeigniter\ims-demo-Scholarship\application\views\backend\superadmin\invoice\add_single_list.php 3
+ERROR - 2022-04-26 22:37:51 --> Severity: Warning --> Undefined variable $payment C:\xampp\htdocs\Codeigniter\ims-demo-Scholarship\application\views\backend\superadmin\invoice\list.php 81
+ERROR - 2022-04-26 22:37:51 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\Codeigniter\ims-demo-Scholarship\application\views\backend\superadmin\invoice\list.php 81
+ERROR - 2022-04-26 22:37:51 --> Severity: Warning --> Undefined variable $payment C:\xampp\htdocs\Codeigniter\ims-demo-Scholarship\application\views\backend\superadmin\invoice\list.php 81
+ERROR - 2022-04-26 22:37:51 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\Codeigniter\ims-demo-Scholarship\application\views\backend\superadmin\invoice\list.php 81
+ERROR - 2022-04-26 22:37:51 --> Severity: Warning --> Undefined variable $payment C:\xampp\htdocs\Codeigniter\ims-demo-Scholarship\application\views\backend\superadmin\invoice\list.php 81
+ERROR - 2022-04-26 22:37:51 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\Codeigniter\ims-demo-Scholarship\application\views\backend\superadmin\invoice\list.php 81
+ERROR - 2022-04-26 22:37:51 --> Severity: Warning --> Undefined variable $payment C:\xampp\htdocs\Codeigniter\ims-demo-Scholarship\application\views\backend\superadmin\invoice\list.php 81
+ERROR - 2022-04-26 22:37:51 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\Codeigniter\ims-demo-Scholarship\application\views\backend\superadmin\invoice\list.php 81
+ERROR - 2022-04-26 22:37:51 --> Severity: Warning --> Undefined variable $payment C:\xampp\htdocs\Codeigniter\ims-demo-Scholarship\application\views\backend\superadmin\invoice\list.php 81
+ERROR - 2022-04-26 22:37:51 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\Codeigniter\ims-demo-Scholarship\application\views\backend\superadmin\invoice\list.php 81
+ERROR - 2022-04-26 22:37:51 --> Severity: Warning --> Undefined variable $payment C:\xampp\htdocs\Codeigniter\ims-demo-Scholarship\application\views\backend\superadmin\invoice\list.php 81
+ERROR - 2022-04-26 22:37:51 --> Severity: Warning --> Trying to access array offset on value of type null C:\xampp\htdocs\Codeigniter\ims-demo-Scholarship\application\views\backend\superadmin\invoice\list.php 81
+ERROR - 2022-04-26 22:38:27 --> Severity: Warning --> Undefined variable $student_id C:\xampp\htdocs\Codeigniter\ims-demo-Scholarship\application\views\backend\superadmin\invoice\add_single_list.php 3
